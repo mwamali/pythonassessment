@@ -4,3 +4,7 @@ def sum_of_list(nums):
     for num in nums:
         total += num
     return total
+
+# Test for sum_of_list
+nums = [1, 2, 3, 4, 5]
+print(sum_of_list(nums))
